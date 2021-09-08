@@ -1,0 +1,135 @@
+body{
+    padding: 0px;
+    margin: 0px;;
+}
+.main_container{
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    align-items: center;
+}
+.header_container{
+    width:90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.main_heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.rock_span{
+    color:#3C1874;
+    text-decoration: line-through;
+    font-family: sans-serif;
+}
+.paper_span{
+color: #266150;
+text-decoration: solid;
+font-family: sans-serif;
+}
+.scissor_span{
+    color: #F1B24A;
+    text-decoration: line-through;
+    font-family: sans-serif;
+}
+.bootstrap_js{
+    color: #3F3F3F;
+    text-decoration: dotted;
+    font-family: sans-serif
+}
+/* display score styling */
+.score_display{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0px;
+
+}
+.player_machine_score_display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:40%;
+    padding:20px;
+}
+.player_machine_header{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.player_span{
+    color:rgb(20, 33, 228);
+}
+.machine_span{
+    color: rgb(183, 0, 255);
+}
+
+.player_machine_score{
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+/*rock_paper_scissor_images_styling*/
+.emojis_container{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+.rock_paper_scissor_emoji_images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.image_sub_container{
+    width:20%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rock_paper_scissor_images{
+    width: 100px;
+    height:100px;
+    cursor: pointer;
+}
+.rock_paper_scissor_button{
+    text-align: center;
+    border-radius: 8px;
+    padding:8px;
+    margin: 8px;
+    color: white;
+    background-color: rgb(10, 128, 224);
+    width:100px;
+    border:none;
+    font-size: 22px;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+#rock_button{
+    background-color: #FF33CE;
+}
+#paper_button{
+    background-color: #e5e907;
+}
+#scissor_button{
+    background-color: #99618c;
+}

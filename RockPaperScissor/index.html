@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class= "main_container">
+        <header class="header_container" >
+            <h1 class="main_heading"><span class="rock_span">Rock</span>--
+                <span class="paper_span">Paper</span>--
+                <span class="scissor_span">Scissor</span>
+                </h1>
+        </header>
+        <div>
+            <h3> <span class="bootstrap_js">Using Bootstrap & Javascript</span> </h3>
+
+        </div>
+        <div class="score_display">
+            <div class="player_machine_score_display">
+                <h2 class="player_machine_header"><span class="player_span">Player</span></h2>
+                <h4 class="player_machine_score" id="player_score"></h4>
+            </div>
+       
+        <div class="player_machine_score_display">
+            <h2 class="player_machine_header"><span class="machine_span">Machine</span></h2>
+            <h4 class="player_machine_score" id="machine_score"></h4>
+        </div>
+    </div>
+    <div class="emojis_container">
+        <div class="rock_paper_scissor_emoji_images">
+            <div class="image_sub_container">
+                <img class="rock_paper_scissor_images" alt="rock_image_loading" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5ZtZ17uXhZ4Rhmy6Mb3fxK2snEu3Zlo21ujRjjOGrR3RZ7jQ0-FwmOXRPcwUKXtSD4SM&usqp=CAU">
+                <button class="rock_paper_scissor_button" id="rock_button">ROCK</button> 
+            </div>
+            <div class="image_sub_container">
+                <img class="rock_paper_scissor_emoji_images" alt="paper_image_loading" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhcS_BMRzlI1yJM1y4bF-CKIOWlX3yVOp6hACU9c559b8uXtZvSn3eU6upoR6-rIXjZwk&usqp=CAU">
+                <button class="rock_paper_scissor_button" id="paper_button">PAPER</button>
+            </div>
+            <div class="image_sub_container">
+                <img class="rock_paper_scissor_emoji_images" alt="scissor_image_loading" src="https://www.seekpng.com/png/detail/111-1114370_rock-paper-scissors-rock-paper-scissors-clipart.png">
+                <button class="rock_paper_scissor_button" id="scissor_button">SCISSOR</button>
+            </div>
+        </div>
+    </div>
+    <div class="output_container" id="outputTextContainer">
+        <h1 class="output_text"> Computer choose <span class="computer_choice" id="computerChoice"></span> -
+             player choose <span class="player_choice" id="playerChoice"></span>.
+        </h1>
+        <h1 class="winning_status" id="resultText"></h1>
+    </div>
+
+    </div>
+</body>
+</html>
